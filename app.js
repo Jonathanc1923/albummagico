@@ -8,8 +8,8 @@ document.getElementById("contact-form").addEventListener("submit", function(even
   // Envía los datos del formulario a EmailJS
   emailjs.sendForm("service_at6609r", "template_0d3t4mr", this)
     .then(function(response) {
-      alert("Correo enviado correctamente: " + response.status);
+      alert("Reclamo enviado correctamente, recibirá una respuesta de nuestra parte en un plazo no mayor a 30 días desde este momento");
     }, function(error) {
-      alert("Error al enviar el correo: " + JSON.stringify(error));
+      alert("Error al enviar el reclamo: " + JSON.stringify(error));
     });
 });
