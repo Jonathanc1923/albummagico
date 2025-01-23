@@ -6,7 +6,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
   event.preventDefault(); // Previene la recarga de la página al enviar el formulario
 
   // Envía los datos del formulario a EmailJS
-  emailjs.sendForm("service_yezgxgd", "template_0d3t4mr", this)
+  emailjs.sendForm("service_at6609r", "template_0d3t4mr", this)
     .then(function(response) {
       alert("Correo enviado correctamente: " + response.status);
     }, function(error) {
