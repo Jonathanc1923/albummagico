@@ -1,5 +1,5 @@
 // Inicializa EmailJS
-emailjs.init("nkOfrIKMdX0rJg9egQvN9"); // Reemplaza con tu User ID
+emailjs.init("6-F1FsinyTjkCvfiT"); // Reemplaza con tu User ID
 
 // Captura el evento de envío del formulario
 document.getElementById("contact-form").addEventListener("submit", function(event) {
